@@ -1,0 +1,85 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("images/Background.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.nav{
+    text-align: center;
+    align-content: center;
+    background:none;
+}
+
+
+#map{
+    border: black 1px solid;
+    height: 500px;
+    border-radius: 5px;
+    background: url("images/GoogleMapTA.jpg");
+
+    
+}
+#list{
+    border: black 1px solid;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.377);
+    padding: 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav-item{
+    color: black;
+    font-family: 'Syncopate', sans-serif;
+    padding: 5px;
+}
+.nav-item:hover{
+    color: orange;
+}
+.top{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+}
+.top:hover{
+    color: white;
+}
+
+.top:nth-child(4n){
+    margin-right: 15px;
+}
+
+.modal-title{
+    font-family: 'Syncopate', sans-serif;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.modal-content{
+    height: 400px;;
+    width: 100%;
+    background-image: url(images/Background.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+.modal-header,.modal-body, .modal-footer{
+    padding:0px;
+    border-top: none;
+}
+.btn{
+    background-color:orangered;
+}
+.btn:hover{
+    background-color: black
+}
+.modal-body{
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 2
+}
