@@ -1,7 +1,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-image: url("images/Background.jpg");
+    background-image: url("images/trianglify.png");
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
@@ -15,41 +15,38 @@ body{
 
 
 #map{
-    border: black 1px solid;
+    border: black 2px solid;
     height: 500px;
-    border-radius: 5px;
+    border-radius: 10px;
     background: url("images/GoogleMapTA.jpg");
 
     
 }
 #list{
-    border: black 1px solid;
+    border: black 2px solid;
     height: 500px;
     background: rgba(255, 255, 255, 0.377);
     padding: 0px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .nav-item{
     color: black;
     font-family: 'Syncopate', sans-serif;
     padding: 5px;
+    position: relative;
 }
 .nav-item:hover{
     color: orange;
 }
 .top{
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Glegoo', serif;
     padding: 2px;
 }
 .top:hover{
-    color: white;
-}
-
-.top:nth-child(4n){
-    margin-right: 15px;
+    color: orangered;
 }
 
 .modal-title{
@@ -70,6 +67,7 @@ body{
 .modal-header,.modal-body, .modal-footer{
     padding:0px;
     border-top: none;
+    
 }
 .btn{
     background-color:orangered;
@@ -80,6 +78,46 @@ body{
 .modal-body{
     margin: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2
 }
+.col-md-3{
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+
+}
+#about{
+    background-color: white;
+}
+#about:hover{
+    background-color: rgb(220, 220, 236)
+
+}
+/*======================*/
+#theBand{
+    background-color: rgb(240, 240, 248);
+    line-height: 25px;
+}
+#theBand:hover{
+    background-color: rgb(230, 230, 241)
+
+}
+/*====================*/
+
+#login{
+    background-color: rgb(230, 230, 241)
+}
+#login:hover{
+    background-color: rgb(240, 240, 248);
+
+}
+
+/*====================*/
+#contact{
+    background-color: rgb(220, 220, 236)
+}
+#contact:hover{
+    background-color: white;
+}
+
